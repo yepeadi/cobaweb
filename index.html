@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Berjalan!</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            color: #10b981; /* Warna Hijau Sukses */
+            margin-bottom: 0.5rem;
+        }
+        p {
+            color: #6b7280;
+            line-height: 1.5;
+        }
+        .status {
+            display: inline-block;
+            background: #d1fae5;
+            color: #065f46;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Berhasil! 🎉</h1>
+        <p>Jika Anda melihat halaman ini, artinya Nginx di server Anda sudah berfungsi dengan normal.</p>
+        <div class="status">Status: Online</div>
+        <p style="font-size: 12px; margin-top: 20px;">File: /var/www/html/index.html</p>
+    </div>
+</body>
+</html>
